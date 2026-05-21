@@ -1,21 +1,6 @@
-import Navbar from "@/components/Navbar";
-import Hero from "@/components/Hero";
-import TipsSection from "@/components/TipsSection";
-import RecipesSection from "@/components/RecipesSection";
-import GettingStarted from "@/components/GettingStarted";
-import Footer from "@/components/Footer";
+import ODS12 from "@/components/ODS12";
+import ODS13 from "@/components/ODS13";
 
 export default function Home() {
-  return (
-    <div className="min-h-screen">
-      <Navbar />
-      <main>
-        <Hero />
-        <TipsSection />
-        <RecipesSection />
-        <GettingStarted />
-      </main>
-      <Footer />
-    </div>
-  );
+  return <ODS13 />;
 }
