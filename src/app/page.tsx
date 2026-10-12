@@ -1,6 +1,5 @@
-import ODS12 from "@/components/ODS12";
-import ODS13 from "@/components/ODS13";
+import ODS2_2026 from "@/components/ODS2_2026";
 
 export default function Home() {
-  return <ODS13 />;
+  return <ODS2_2026 />;
 }
